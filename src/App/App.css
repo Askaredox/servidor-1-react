@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  height: 100vh;
+  overflow: auto;
+}
+
+.navbar-brand {
+  margin: auto 30px;
+  display: inline-block;
+}

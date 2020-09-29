@@ -1,0 +1,10 @@
+version: '3'
+
+services: 
+    frontend:
+        build: .
+        container_name: Lucia
+        ports: 
+            - '80:80'
+        volumes: 
+            - .:/app
