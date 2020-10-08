@@ -23,6 +23,8 @@ sudo apt install -y git
 git clone https://github.com/Askaredox/servidor-1-react.git
 cd servidor-1-react
 sudo docker-compose -f "docker-compose.yaml" up -d --build
+sudo docker ps
+echo Done!
 
 # Extras
 
